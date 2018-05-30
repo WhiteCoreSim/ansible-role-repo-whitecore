@@ -1,17 +1,18 @@
 --- 
+
 dependencies: []
-galaxy_info: 
+
+galaxy_info:
   author: Fly-Man-
-  description: "Install WhiteCore"
+  description: Install WhiteCore with Ansible
   license: MIT
-  min_ansible_version: 1.2
-  platforms: 
-    - 
-      name: Ubuntu
-  versions: 
-    - bionic
-  galaxy_tags: 
-  - development
-  - whitecore
-  - mono
-  - mariadb
+  min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+      versions:
+      - bionic
+  galaxy_tags:
+    - development
+    - mono
+    - whitecore
+    - mariadb
