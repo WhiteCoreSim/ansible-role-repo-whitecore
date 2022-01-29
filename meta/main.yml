@@ -6,11 +6,21 @@ galaxy_info:
   author: Fly-Man-
   description: Install WhiteCore with Ansible
   license: MIT
-  min_ansible_version: 2.1
+  min_ansible_version: 2.4
   platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+        - buster  
     - name: Ubuntu
       versions:
-      - focal
+        - precise
+        - trusty
+        - xenial
+        - bionic
+        - focal
   galaxy_tags:
     - development
     - mono
